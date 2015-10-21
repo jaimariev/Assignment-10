@@ -55,4 +55,9 @@ p {
 	display: block;
 }
 
+#content1 {
+	max-height: 140px;
+	overflow: auto;
+}
+
 
