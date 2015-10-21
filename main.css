@@ -1,8 +1,13 @@
 .container{
 	width:500px;
+	overflow: hidden;
 	margin:auto;
 	border: 3px solid #484848;
 	background-color: #c8c8c8;
+}
+
+.container:after{
+	position: relative;
 }
 
 ul {
@@ -15,14 +20,15 @@ li:hover{
 }
 
 li {
+	font-family: 'Shadows Into Light', cursive;
+	position: relative;
+	z-index: 20;
 	display:block;
 	text-align: center;
 	height: 50px;
 	background-color: black;
 	color: white;
-	font-family: 'Shadows Into Light', cursive;
 	font-size: 30px;
-	overflow: hidden;
 }
 
 p {
@@ -46,6 +52,7 @@ p {
 }
 
 .displayBlock {
-	display:block;
+	display: block;
 }
+
 
