@@ -1,0 +1,51 @@
+.container{
+	width:500px;
+	margin:auto;
+	border: 3px solid #484848;
+	background-color: #c8c8c8;
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+li:hover{
+	background-color: #660099;
+}
+
+li {
+	display:block;
+	text-align: center;
+	height: 50px;
+	background-color: black;
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+	overflow: hidden;
+}
+
+p {
+	display: none;
+	padding-left: 6px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+#s1 {
+	border-bottom: 1px solid #484848;
+}
+
+#s2 {
+	border-top: 1px solid #484848;
+	border-bottom: 1px solid #484848;
+}
+
+#s3 {
+	border-top: 1px solid #484848;
+	border-bottom: 1px solid #484848;
+}
+
+.displayBlock {
+	display:block;
+}
+
